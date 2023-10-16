@@ -1,6 +1,9 @@
 # Discord Chatbot with CodeGPT Plus
 
 This is a simple chatbot that uses the CodeGPTPlus API to generate responses to user messages in a Discord server.
+<p align="center">
+    <img width="654" alt="Discord CodeGPT" src="https://github.com/davila7/codegpt-discord/assets/6216945/d6e683e5-53ba-4c86-8e40-bd4165ac4dee">
+</p>
 
 ## Project Setup
 
