@@ -1,4 +1,4 @@
-# Discord Chatbot with CodeGPTPlus
+# Discord Chatbot with CodeGPT Plus
 
 This is a simple chatbot that uses the CodeGPTPlus API to generate responses to user messages in a Discord server.
 
@@ -7,19 +7,30 @@ This is a simple chatbot that uses the CodeGPTPlus API to generate responses to 
 To use this chatbot, you will need to have a Discord bot set up and a CodeGPTPlus API key.
 
 1. Create a Discord bot and get the bot token.
+    - Go to the Discord Developer Portal.
+    - Click on "New Application" and give it a name.
+    - Go to the "Bot" tab and click "Add Bot".
+    - Under the "Token" section, click "Copy" to get your bot token.
 2. Invite the bot to your server.
-3. Get your Discord Token.
-4. Get your Discord Channel ID.
-5. Create an account in [CodeGPT Plus](https://plus.codegpt.co)
-6. Get your CodeGPT Plus API key.
-7. Get your CodeGPT Plus Agent ID.
-8. Clone this repository and install the dependencies:
+    - Go to the "OAuth2" tab in your application.
+    - Under "Scopes", select "bot".
+    - Under "Bot Permissions", select the appropriate permissions.
+    - Copy the generated URL and open it in your web browser to invite the bot to your server.
+3. Get your Discord Token and Channel ID.
+    - Open Discord and go to your server.
+    - Right-click on the channel you want the bot to operate in and click "Copy ID" to get your Channel ID.
+    - To get your Discord Token, refer to the steps above.
+4. Create an account in [CodeGPT Plus](https://plus.codegpt.co)
+    - Go to the CodeGPT Plus website https://plus.codegpt.co
+    - Sign up for an account and navigate to your dashboard.
+    - Copy your API key and Agent ID.
+5. Clone this repository and install the dependencies:
     ```
     git clone https://github.com/davila7/codegpt-discord.git
     cd codegpt-discord
     npm install
     ```
-9. Create a .env file in the root directory of the project and add the following variables:
+6.  Create a .env file in the root directory of the project and add the following variables:
     ```
     DISCORD_TOKEN=<your_discord_bot_token>
     DISCORD_CHANNEL_ID=<your_discord_channel_id>
